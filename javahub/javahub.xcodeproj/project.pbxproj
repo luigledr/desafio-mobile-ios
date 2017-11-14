@@ -7,13 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2555F87D1FBA5E44007E367A /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 2555F87C1FBA5E44007E367A /* user.json */; };
+		2555F87E1FBA5E57007E367A /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 2555F87C1FBA5E44007E367A /* user.json */; };
+		2555F8801FBA5F5B007E367A /* pullRequests.json in Resources */ = {isa = PBXBuildFile; fileRef = 2555F87F1FBA5F5B007E367A /* pullRequests.json */; };
+		2555F8811FBA5FE3007E367A /* pullRequests.json in Resources */ = {isa = PBXBuildFile; fileRef = 2555F87F1FBA5F5B007E367A /* pullRequests.json */; };
 		25B1FD1B1FB8B7D7000C2803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B1FD1A1FB8B7D7000C2803 /* AppDelegate.swift */; };
-		25B1FD1D1FB8B7D7000C2803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B1FD1C1FB8B7D7000C2803 /* ViewController.swift */; };
 		25B1FD201FB8B7D7000C2803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B1FD1E1FB8B7D7000C2803 /* Main.storyboard */; };
 		25B1FD221FB8B7D7000C2803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B1FD211FB8B7D7000C2803 /* Assets.xcassets */; };
 		25B1FD251FB8B7D7000C2803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B1FD231FB8B7D7000C2803 /* LaunchScreen.storyboard */; };
 		25B1FD301FB8B7D7000C2803 /* javahubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B1FD2F1FB8B7D7000C2803 /* javahubTests.swift */; };
 		25B1FD3B1FB8B7D7000C2803 /* javahubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B1FD3A1FB8B7D7000C2803 /* javahubUITests.swift */; };
+		25C874B61FB8E59100D3C6FB /* JVHHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C874B51FB8E59100D3C6FB /* JVHHomeTableViewController.swift */; };
+		25C874BA1FB8E68F00D3C6FB /* JVHRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C874B91FB8E68F00D3C6FB /* JVHRepository.swift */; };
+		25C874BC1FB8E69F00D3C6FB /* JVHOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C874BB1FB8E69F00D3C6FB /* JVHOwner.swift */; };
+		25CA5D1C1FB9D00100B4C1E8 /* JVHRepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA5D1B1FB9D00100B4C1E8 /* JVHRepositoryTableViewCell.swift */; };
+		25CA5D1E1FB9FF2700B4C1E8 /* JVHHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA5D1D1FB9FF2700B4C1E8 /* JVHHttpError.swift */; };
+		25CA5D201FBA01AC00B4C1E8 /* JVHUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA5D1F1FBA01AC00B4C1E8 /* JVHUser.swift */; };
+		25CA5D231FBA0B6700B4C1E8 /* JVHPullRequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA5D221FBA0B6700B4C1E8 /* JVHPullRequestsTableViewController.swift */; };
+		25CA5D251FBA116200B4C1E8 /* JVHPullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA5D241FBA116200B4C1E8 /* JVHPullRequest.swift */; };
+		25CA5D281FBA40E600B4C1E8 /* JVHPullRequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CA5D271FBA40E600B4C1E8 /* JVHPullRequestsTableViewCell.swift */; };
+		25E1CAE41FB8ED7000EEE953 /* JVHRepositoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CAE31FB8ED7000EEE953 /* JVHRepositoriesResponse.swift */; };
+		25E1CAE61FB8EEAB00EEE953 /* JVHRepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CAE51FB8EEAB00EEE953 /* JVHRepositoryService.swift */; };
+		25E1CAE81FB8EEE200EEE953 /* JVHRepositoryServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CAE71FB8EEE200EEE953 /* JVHRepositoryServiceProtocol.swift */; };
+		25E1CAEB1FB8EF8600EEE953 /* JVHGithubUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CAEA1FB8EF8600EEE953 /* JVHGithubUrl.swift */; };
+		25E1CAED1FB8F35200EEE953 /* JVHPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CAEC1FB8F35200EEE953 /* JVHPath.swift */; };
+		25E1CAF91FB9195800EEE953 /* JVHGithubLinkHeaderParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CAF81FB9195800EEE953 /* JVHGithubLinkHeaderParser.swift */; };
+		25E1CAFD1FB92A4900EEE953 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAEF1FB90D0B00EEE953 /* Alamofire.framework */; };
+		25E1CAFE1FB92A4900EEE953 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAEF1FB90D0B00EEE953 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E1CAFF1FB92A4900EEE953 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAF01FB90D0B00EEE953 /* AlamofireImage.framework */; };
+		25E1CB001FB92A4900EEE953 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAF01FB90D0B00EEE953 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E1CB011FB92A4900EEE953 /* PMKAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAF11FB90D0B00EEE953 /* PMKAlamofire.framework */; };
+		25E1CB021FB92A4900EEE953 /* PMKAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAF11FB90D0B00EEE953 /* PMKAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E1CB031FB92A4900EEE953 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAEE1FB90D0B00EEE953 /* PromiseKit.framework */; };
+		25E1CB041FB92A4900EEE953 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAEE1FB90D0B00EEE953 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E1CB051FB92A4900EEE953 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAF21FB90D0B00EEE953 /* Swinject.framework */; };
+		25E1CB061FB92A4900EEE953 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CAF21FB90D0B00EEE953 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25E1CB071FB92A9400EEE953 /* repositories.json in Resources */ = {isa = PBXBuildFile; fileRef = 25E1CAFC1FB926F500EEE953 /* repositories.json */; };
+		25E1CB091FB92B6E00EEE953 /* repositories.json in Resources */ = {isa = PBXBuildFile; fileRef = 25E1CAFC1FB926F500EEE953 /* repositories.json */; };
+		25E1CB0B1FB92E5E00EEE953 /* JVHContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CB0A1FB92E5E00EEE953 /* JVHContainer.swift */; };
+		25E1CB0D1FB9BC5E00EEE953 /* JVHContainerNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E1CB0C1FB9BC5E00EEE953 /* JVHContainerNavigationController.swift */; };
+		25E1CB0F1FB9BFBF00EEE953 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CB0E1FB9BFBF00EEE953 /* SwinjectStoryboard.framework */; };
+		25E1CB101FB9BFD100EEE953 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CB0E1FB9BFBF00EEE953 /* SwinjectStoryboard.framework */; };
+		25E1CB111FB9BFD100EEE953 /* SwinjectStoryboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25E1CB0E1FB9BFBF00EEE953 /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +68,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		25B1FD621FB8D226000C2803 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25E1CAFE1FB92A4900EEE953 /* Alamofire.framework in Embed Frameworks */,
+				25E1CB021FB92A4900EEE953 /* PMKAlamofire.framework in Embed Frameworks */,
+				25E1CB111FB9BFD100EEE953 /* SwinjectStoryboard.framework in Embed Frameworks */,
+				25E1CB001FB92A4900EEE953 /* AlamofireImage.framework in Embed Frameworks */,
+				25E1CB061FB92A4900EEE953 /* Swinject.framework in Embed Frameworks */,
+				25E1CB041FB92A4900EEE953 /* PromiseKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2555F87C1FBA5E44007E367A /* user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		2555F87F1FBA5F5B007E367A /* pullRequests.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pullRequests.json; sourceTree = "<group>"; };
 		25B1FD171FB8B7D7000C2803 /* javahub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = javahub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B1FD1A1FB8B7D7000C2803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25B1FD1C1FB8B7D7000C2803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		25B1FD1F1FB8B7D7000C2803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25B1FD211FB8B7D7000C2803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B1FD241FB8B7D7000C2803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +102,30 @@
 		25B1FD361FB8B7D7000C2803 /* javahubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = javahubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B1FD3A1FB8B7D7000C2803 /* javahubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = javahubUITests.swift; sourceTree = "<group>"; };
 		25B1FD3C1FB8B7D7000C2803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25C874B51FB8E59100D3C6FB /* JVHHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHHomeTableViewController.swift; sourceTree = "<group>"; };
+		25C874B91FB8E68F00D3C6FB /* JVHRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHRepository.swift; sourceTree = "<group>"; };
+		25C874BB1FB8E69F00D3C6FB /* JVHOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHOwner.swift; sourceTree = "<group>"; };
+		25CA5D1B1FB9D00100B4C1E8 /* JVHRepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHRepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		25CA5D1D1FB9FF2700B4C1E8 /* JVHHttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHHttpError.swift; sourceTree = "<group>"; };
+		25CA5D1F1FBA01AC00B4C1E8 /* JVHUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHUser.swift; sourceTree = "<group>"; };
+		25CA5D221FBA0B6700B4C1E8 /* JVHPullRequestsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHPullRequestsTableViewController.swift; sourceTree = "<group>"; };
+		25CA5D241FBA116200B4C1E8 /* JVHPullRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHPullRequest.swift; sourceTree = "<group>"; };
+		25CA5D271FBA40E600B4C1E8 /* JVHPullRequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHPullRequestsTableViewCell.swift; sourceTree = "<group>"; };
+		25E1CAE31FB8ED7000EEE953 /* JVHRepositoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHRepositoriesResponse.swift; sourceTree = "<group>"; };
+		25E1CAE51FB8EEAB00EEE953 /* JVHRepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHRepositoryService.swift; sourceTree = "<group>"; };
+		25E1CAE71FB8EEE200EEE953 /* JVHRepositoryServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHRepositoryServiceProtocol.swift; sourceTree = "<group>"; };
+		25E1CAEA1FB8EF8600EEE953 /* JVHGithubUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHGithubUrl.swift; sourceTree = "<group>"; };
+		25E1CAEC1FB8F35200EEE953 /* JVHPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHPath.swift; sourceTree = "<group>"; };
+		25E1CAEE1FB90D0B00EEE953 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		25E1CAEF1FB90D0B00EEE953 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		25E1CAF01FB90D0B00EEE953 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		25E1CAF11FB90D0B00EEE953 /* PMKAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PMKAlamofire.framework; path = Carthage/Build/iOS/PMKAlamofire.framework; sourceTree = "<group>"; };
+		25E1CAF21FB90D0B00EEE953 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		25E1CAF81FB9195800EEE953 /* JVHGithubLinkHeaderParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHGithubLinkHeaderParser.swift; sourceTree = "<group>"; };
+		25E1CAFC1FB926F500EEE953 /* repositories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repositories.json; sourceTree = "<group>"; };
+		25E1CB0A1FB92E5E00EEE953 /* JVHContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHContainer.swift; sourceTree = "<group>"; };
+		25E1CB0C1FB9BC5E00EEE953 /* JVHContainerNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JVHContainerNavigationController.swift; sourceTree = "<group>"; };
+		25E1CB0E1FB9BFBF00EEE953 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +133,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E1CAFD1FB92A4900EEE953 /* Alamofire.framework in Frameworks */,
+				25E1CB011FB92A4900EEE953 /* PMKAlamofire.framework in Frameworks */,
+				25E1CB0F1FB9BFBF00EEE953 /* SwinjectStoryboard.framework in Frameworks */,
+				25E1CB101FB9BFD100EEE953 /* SwinjectStoryboard.framework in Frameworks */,
+				25E1CAFF1FB92A4900EEE953 /* AlamofireImage.framework in Frameworks */,
+				25E1CB051FB92A4900EEE953 /* Swinject.framework in Frameworks */,
+				25E1CB031FB92A4900EEE953 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +167,7 @@
 				25B1FD2E1FB8B7D7000C2803 /* javahubTests */,
 				25B1FD391FB8B7D7000C2803 /* javahubUITests */,
 				25B1FD181FB8B7D7000C2803 /* Products */,
+				25B1FD481FB8BFDD000C2803 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +184,11 @@
 		25B1FD191FB8B7D7000C2803 /* javahub */ = {
 			isa = PBXGroup;
 			children = (
+				25E1CAE91FB8EF7100EEE953 /* infrastructure */,
+				25C874B81FB8E65C00D3C6FB /* models */,
+				25C874B71FB8E5E400D3C6FB /* services */,
+				25C874B21FB8E50D00D3C6FB /* screens */,
 				25B1FD1A1FB8B7D7000C2803 /* AppDelegate.swift */,
-				25B1FD1C1FB8B7D7000C2803 /* ViewController.swift */,
 				25B1FD1E1FB8B7D7000C2803 /* Main.storyboard */,
 				25B1FD211FB8B7D7000C2803 /* Assets.xcassets */,
 				25B1FD231FB8B7D7000C2803 /* LaunchScreen.storyboard */,
@@ -110,6 +200,7 @@
 		25B1FD2E1FB8B7D7000C2803 /* javahubTests */ = {
 			isa = PBXGroup;
 			children = (
+				25E1CAFA1FB926B900EEE953 /* resources */,
 				25B1FD2F1FB8B7D7000C2803 /* javahubTests.swift */,
 				25B1FD311FB8B7D7000C2803 /* Info.plist */,
 			);
@@ -125,6 +216,114 @@
 			path = javahubUITests;
 			sourceTree = "<group>";
 		};
+		25B1FD481FB8BFDD000C2803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E1CB0E1FB9BFBF00EEE953 /* SwinjectStoryboard.framework */,
+				25E1CAEF1FB90D0B00EEE953 /* Alamofire.framework */,
+				25E1CAF01FB90D0B00EEE953 /* AlamofireImage.framework */,
+				25E1CAF11FB90D0B00EEE953 /* PMKAlamofire.framework */,
+				25E1CAEE1FB90D0B00EEE953 /* PromiseKit.framework */,
+				25E1CAF21FB90D0B00EEE953 /* Swinject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25C874B21FB8E50D00D3C6FB /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				25CA5D211FBA0B3F00B4C1E8 /* pullRequests */,
+				25E1CB121FB9C29500EEE953 /* home */,
+				25E1CB0C1FB9BC5E00EEE953 /* JVHContainerNavigationController.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		25C874B71FB8E5E400D3C6FB /* services */ = {
+			isa = PBXGroup;
+			children = (
+				25E1CAE51FB8EEAB00EEE953 /* JVHRepositoryService.swift */,
+				25E1CAE71FB8EEE200EEE953 /* JVHRepositoryServiceProtocol.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		25C874B81FB8E65C00D3C6FB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				25C874B91FB8E68F00D3C6FB /* JVHRepository.swift */,
+				25C874BB1FB8E69F00D3C6FB /* JVHOwner.swift */,
+				25E1CAE31FB8ED7000EEE953 /* JVHRepositoriesResponse.swift */,
+				25CA5D1F1FBA01AC00B4C1E8 /* JVHUser.swift */,
+				25CA5D241FBA116200B4C1E8 /* JVHPullRequest.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		25CA5D211FBA0B3F00B4C1E8 /* pullRequests */ = {
+			isa = PBXGroup;
+			children = (
+				25CA5D261FBA40BD00B4C1E8 /* view */,
+				25CA5D221FBA0B6700B4C1E8 /* JVHPullRequestsTableViewController.swift */,
+			);
+			path = pullRequests;
+			sourceTree = "<group>";
+		};
+		25CA5D261FBA40BD00B4C1E8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				25CA5D271FBA40E600B4C1E8 /* JVHPullRequestsTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		25E1CAE91FB8EF7100EEE953 /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				25E1CAEA1FB8EF8600EEE953 /* JVHGithubUrl.swift */,
+				25E1CAEC1FB8F35200EEE953 /* JVHPath.swift */,
+				25E1CAF81FB9195800EEE953 /* JVHGithubLinkHeaderParser.swift */,
+				25E1CB0A1FB92E5E00EEE953 /* JVHContainer.swift */,
+				25CA5D1D1FB9FF2700B4C1E8 /* JVHHttpError.swift */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		25E1CAFA1FB926B900EEE953 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				25E1CAFB1FB926CA00EEE953 /* json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		25E1CAFB1FB926CA00EEE953 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				25E1CAFC1FB926F500EEE953 /* repositories.json */,
+				2555F87C1FBA5E44007E367A /* user.json */,
+				2555F87F1FBA5F5B007E367A /* pullRequests.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		25E1CB121FB9C29500EEE953 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				25E1CB131FB9C2A200EEE953 /* view */,
+				25C874B51FB8E59100D3C6FB /* JVHHomeTableViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		25E1CB131FB9C2A200EEE953 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				25CA5D1B1FB9D00100B4C1E8 /* JVHRepositoryTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +334,7 @@
 				25B1FD131FB8B7D7000C2803 /* Sources */,
 				25B1FD141FB8B7D7000C2803 /* Frameworks */,
 				25B1FD151FB8B7D7000C2803 /* Resources */,
+				25B1FD621FB8D226000C2803 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +387,7 @@
 		25B1FD0F1FB8B7D7000C2803 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JVH;
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Luiz Alberto";
@@ -233,8 +434,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B1FD251FB8B7D7000C2803 /* LaunchScreen.storyboard in Resources */,
+				25E1CB091FB92B6E00EEE953 /* repositories.json in Resources */,
 				25B1FD221FB8B7D7000C2803 /* Assets.xcassets in Resources */,
 				25B1FD201FB8B7D7000C2803 /* Main.storyboard in Resources */,
+				2555F8811FBA5FE3007E367A /* pullRequests.json in Resources */,
+				2555F87E1FBA5E57007E367A /* user.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +446,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2555F87D1FBA5E44007E367A /* user.json in Resources */,
+				2555F8801FBA5F5B007E367A /* pullRequests.json in Resources */,
+				25E1CB071FB92A9400EEE953 /* repositories.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +466,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B1FD1D1FB8B7D7000C2803 /* ViewController.swift in Sources */,
+				25E1CAE81FB8EEE200EEE953 /* JVHRepositoryServiceProtocol.swift in Sources */,
+				25E1CAE41FB8ED7000EEE953 /* JVHRepositoriesResponse.swift in Sources */,
+				25C874B61FB8E59100D3C6FB /* JVHHomeTableViewController.swift in Sources */,
+				25CA5D1C1FB9D00100B4C1E8 /* JVHRepositoryTableViewCell.swift in Sources */,
+				25E1CAF91FB9195800EEE953 /* JVHGithubLinkHeaderParser.swift in Sources */,
+				25CA5D1E1FB9FF2700B4C1E8 /* JVHHttpError.swift in Sources */,
+				25E1CAE61FB8EEAB00EEE953 /* JVHRepositoryService.swift in Sources */,
 				25B1FD1B1FB8B7D7000C2803 /* AppDelegate.swift in Sources */,
+				25E1CB0B1FB92E5E00EEE953 /* JVHContainer.swift in Sources */,
+				25C874BA1FB8E68F00D3C6FB /* JVHRepository.swift in Sources */,
+				25E1CAED1FB8F35200EEE953 /* JVHPath.swift in Sources */,
+				25E1CAEB1FB8EF8600EEE953 /* JVHGithubUrl.swift in Sources */,
+				25C874BC1FB8E69F00D3C6FB /* JVHOwner.swift in Sources */,
+				25CA5D231FBA0B6700B4C1E8 /* JVHPullRequestsTableViewController.swift in Sources */,
+				25E1CB0D1FB9BC5E00EEE953 /* JVHContainerNavigationController.swift in Sources */,
+				25CA5D201FBA01AC00B4C1E8 /* JVHUser.swift in Sources */,
+				25CA5D251FBA116200B4C1E8 /* JVHPullRequest.swift in Sources */,
+				25CA5D281FBA40E600B4C1E8 /* JVHPullRequestsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +651,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUHGDTLAMY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = javahub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -444,6 +671,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUHGDTLAMY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = javahub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
