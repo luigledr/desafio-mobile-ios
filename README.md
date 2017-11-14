@@ -56,3 +56,26 @@ Seu projeto será avaliado de acordo com os seguintes critérios.
 1. Você seguiu as instruções de envio do desafio?
 
 Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas padrões (standard libs), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto.
+
+## Informações sobre o Desafio Pronto
+
+O desafio foi feito utilizando-se o padrão MVC recomendado pela Apple por questões de Prazo. Fiz a avaliação que essa seria a melhor solução entre entrega e objetivos atingidos.
+
+Foram utilizadas as bibliotecas:
+- Swinject - Inversão de Controle e Injeção de Dependência.
+- SinjectStoryboard - Inversão de Controle e Injeção de Dependência aplicadas aos View Controllers com Storyboards.
+- Alamofire - Acesso à APIs
+- AlamofireImage - Download, cache e controle de concorrência de acesso a imagens remotas.
+- PromiseKit - Facilita a programação assíncrona através da aplicação do uso de Promises, evitando o famoso problema de Callback Hell.
+
+Como gestor de pacotes, optei pela utilização do Carthage. Apesar de exigir algum trabalho manual (algo que pode ser automatizado em uma ferramenta de CI), prefiro o Carthage ao Cocoapods pois permite gestão dos pacotes do projeto sem que a ferramenta toque nosso projeto original e gere vários problemas de versionamento tanto do próprio Cocoapods, quanto dos pacotes gerenciados pelo mesmo.
+
+## Setup
+
+O projeto foi desenvolvido no XCode 9.1 utilizando-se Swift 4, mas é compatível com iOS 9.3.
+Deve se utilizar o Carthage para obtenção das bibliotecas utilizadas. Mais instruções quanto a utilização do Carthage em: https://github.com/Carthage/Carthage
+
+1. Acessar a pasta: javahub dentro da raiz do Repositório e rodar o seguinte comando:
+```carthage update```
+1. Acessar o projeto através do arquivo javahub.xcodeproj
+1. Rodar a aplicação normalmente.
